@@ -3,7 +3,7 @@
         {
             "/**/ ": "mjpeg",
             "name": "streamer",
-            "script": ".mjpg_streamer",
+            "script": "mjpg_streamer",
             "exec_mode": "fork_mode",
             "args": [
                 "-i",
@@ -12,6 +12,6 @@
                 "output_http.so -w /usr/share/mjpg_streamer/www  -p 8080"
             ],
             "log_date_format": "YYYY-MM-DD HH:mm:ss"
-        }q
+        }
     ]
 }
