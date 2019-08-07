@@ -1,5 +1,5 @@
 {
-    "apps": [
+    "apps" : [
         {
             "/**/ ": "mjpeg",
             "name": "streamer",
